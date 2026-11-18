@@ -1,0 +1,8 @@
+Paradigm,Model,Accuracy,Precision,Recall,F1_Score,ROC_AUC
+Deep Learning,ANN,0.9,0.8305,0.9074,0.8673,0.9589
+Deep Learning,DNN,0.8933,0.8065,0.9259,0.8621,0.9606
+Machine Learning,Logistic Regression,0.8867,0.8136,0.8889,0.8496,0.9655
+Machine Learning,Support Vector Machine,0.8867,0.8136,0.8889,0.8496,0.9637
+Machine Learning,Gradient Boosting,0.88,0.86,0.7963,0.8269,0.9653
+Machine Learning,Random Forest,0.8667,0.84,0.7778,0.8077,0.9533
+Machine Learning,Decision Tree,0.8333,0.7959,0.7222,0.7573,0.8971

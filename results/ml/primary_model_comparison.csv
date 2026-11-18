@@ -1,0 +1,6 @@
+Model,Validation_Accuracy,Validation_Recall,Validation_F1,Validation_ROC_AUC,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_ROC_AUC
+Logistic Regression,0.8467,0.8364,0.8,0.9487,0.8867,0.8136,0.8889,0.8496,0.9655
+Support Vector Machine,0.8667,0.8545,0.8246,0.9489,0.8867,0.8136,0.8889,0.8496,0.9637
+Gradient Boosting,0.8667,0.8,0.8148,0.9401,0.88,0.86,0.7963,0.8269,0.9653
+Random Forest,0.86,0.7818,0.8037,0.9319,0.8667,0.84,0.7778,0.8077,0.9533
+Decision Tree,0.8267,0.8,0.7719,0.8976,0.8333,0.7959,0.7222,0.7573,0.8971

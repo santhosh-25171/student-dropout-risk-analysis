@@ -1,0 +1,751 @@
+{
+  "validation_metrics": {
+    "Logistic_Regression": {
+      "accuracy": 0.8467,
+      "precision": 0.7667,
+      "recall": 0.8364,
+      "f1_score": 0.8,
+      "roc_auc": 0.9487,
+      "confusion_matrix": [
+        [
+          81,
+          14
+        ],
+        [
+          9,
+          46
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9,
+          "recall": 0.8526315789473684,
+          "f1-score": 0.8756756756756757,
+          "support": 95.0
+        },
+        "1": {
+          "precision": 0.7666666666666667,
+          "recall": 0.8363636363636363,
+          "f1-score": 0.8,
+          "support": 55.0
+        },
+        "accuracy": 0.8466666666666667,
+        "macro avg": {
+          "precision": 0.8333333333333334,
+          "recall": 0.8444976076555024,
+          "f1-score": 0.8378378378378379,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8511111111111112,
+          "recall": 0.8466666666666667,
+          "f1-score": 0.8479279279279279,
+          "support": 150.0
+        }
+      }
+    },
+    "Decision_Tree": {
+      "accuracy": 0.8267,
+      "precision": 0.7458,
+      "recall": 0.8,
+      "f1_score": 0.7719,
+      "roc_auc": 0.8976,
+      "confusion_matrix": [
+        [
+          80,
+          15
+        ],
+        [
+          11,
+          44
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8791208791208791,
+          "recall": 0.8421052631578947,
+          "f1-score": 0.8602150537634409,
+          "support": 95.0
+        },
+        "1": {
+          "precision": 0.7457627118644068,
+          "recall": 0.8,
+          "f1-score": 0.7719298245614035,
+          "support": 55.0
+        },
+        "accuracy": 0.8266666666666667,
+        "macro avg": {
+          "precision": 0.812441795492643,
+          "recall": 0.8210526315789474,
+          "f1-score": 0.8160724391624221,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8302228844601727,
+          "recall": 0.8266666666666667,
+          "f1-score": 0.8278438030560271,
+          "support": 150.0
+        }
+      }
+    },
+    "Random_Forest": {
+      "accuracy": 0.86,
+      "precision": 0.8269,
+      "recall": 0.7818,
+      "f1_score": 0.8037,
+      "roc_auc": 0.9319,
+      "confusion_matrix": [
+        [
+          86,
+          9
+        ],
+        [
+          12,
+          43
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8775510204081632,
+          "recall": 0.9052631578947369,
+          "f1-score": 0.8911917098445595,
+          "support": 95.0
+        },
+        "1": {
+          "precision": 0.8269230769230769,
+          "recall": 0.7818181818181819,
+          "f1-score": 0.8037383177570093,
+          "support": 55.0
+        },
+        "accuracy": 0.86,
+        "macro avg": {
+          "precision": 0.8522370486656201,
+          "recall": 0.8435406698564594,
+          "f1-score": 0.8474650138007844,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8589874411302982,
+          "recall": 0.86,
+          "f1-score": 0.8591254660791243,
+          "support": 150.0
+        }
+      }
+    },
+    "Support_Vector_Machine": {
+      "accuracy": 0.8667,
+      "precision": 0.7966,
+      "recall": 0.8545,
+      "f1_score": 0.8246,
+      "roc_auc": 0.9489,
+      "confusion_matrix": [
+        [
+          83,
+          12
+        ],
+        [
+          8,
+          47
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9120879120879121,
+          "recall": 0.8736842105263158,
+          "f1-score": 0.8924731182795699,
+          "support": 95.0
+        },
+        "1": {
+          "precision": 0.7966101694915254,
+          "recall": 0.8545454545454545,
+          "f1-score": 0.8245614035087719,
+          "support": 55.0
+        },
+        "accuracy": 0.8666666666666667,
+        "macro avg": {
+          "precision": 0.8543490407897187,
+          "recall": 0.8641148325358852,
+          "f1-score": 0.8585172608941709,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8697460731359036,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.867572156196944,
+          "support": 150.0
+        }
+      }
+    },
+    "Gradient_Boosting": {
+      "accuracy": 0.8667,
+      "precision": 0.8302,
+      "recall": 0.8,
+      "f1_score": 0.8148,
+      "roc_auc": 0.9401,
+      "confusion_matrix": [
+        [
+          86,
+          9
+        ],
+        [
+          11,
+          44
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8865979381443299,
+          "recall": 0.9052631578947369,
+          "f1-score": 0.8958333333333334,
+          "support": 95.0
+        },
+        "1": {
+          "precision": 0.8301886792452831,
+          "recall": 0.8,
+          "f1-score": 0.8148148148148148,
+          "support": 55.0
+        },
+        "accuracy": 0.8666666666666667,
+        "macro avg": {
+          "precision": 0.8583933086948065,
+          "recall": 0.8526315789473684,
+          "f1-score": 0.8553240740740741,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8659145432146793,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.8661265432098765,
+          "support": 150.0
+        }
+      }
+    }
+  },
+  "test_metrics": {
+    "Logistic_Regression": {
+      "accuracy": 0.8867,
+      "precision": 0.8136,
+      "recall": 0.8889,
+      "f1_score": 0.8496,
+      "roc_auc": 0.9655,
+      "confusion_matrix": [
+        [
+          85,
+          11
+        ],
+        [
+          6,
+          48
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9340659340659341,
+          "recall": 0.8854166666666666,
+          "f1-score": 0.9090909090909091,
+          "support": 96.0
+        },
+        "1": {
+          "precision": 0.8135593220338984,
+          "recall": 0.8888888888888888,
+          "f1-score": 0.8495575221238938,
+          "support": 54.0
+        },
+        "accuracy": 0.8866666666666667,
+        "macro avg": {
+          "precision": 0.8738126280499162,
+          "recall": 0.8871527777777777,
+          "f1-score": 0.8793242156074015,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8906835537344011,
+          "recall": 0.8866666666666667,
+          "f1-score": 0.8876588897827836,
+          "support": 150.0
+        }
+      }
+    },
+    "Decision_Tree": {
+      "accuracy": 0.8333,
+      "precision": 0.7959,
+      "recall": 0.7222,
+      "f1_score": 0.7573,
+      "roc_auc": 0.8971,
+      "confusion_matrix": [
+        [
+          86,
+          10
+        ],
+        [
+          15,
+          39
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8514851485148515,
+          "recall": 0.8958333333333334,
+          "f1-score": 0.8730964467005076,
+          "support": 96.0
+        },
+        "1": {
+          "precision": 0.7959183673469388,
+          "recall": 0.7222222222222222,
+          "f1-score": 0.7572815533980582,
+          "support": 54.0
+        },
+        "accuracy": 0.8333333333333334,
+        "macro avg": {
+          "precision": 0.8237017579308952,
+          "recall": 0.8090277777777778,
+          "f1-score": 0.815189000049283,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8314811072944028,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8314030851116259,
+          "support": 150.0
+        }
+      }
+    },
+    "Random_Forest": {
+      "accuracy": 0.8667,
+      "precision": 0.84,
+      "recall": 0.7778,
+      "f1_score": 0.8077,
+      "roc_auc": 0.9533,
+      "confusion_matrix": [
+        [
+          88,
+          8
+        ],
+        [
+          12,
+          42
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.88,
+          "recall": 0.9166666666666666,
+          "f1-score": 0.8979591836734694,
+          "support": 96.0
+        },
+        "1": {
+          "precision": 0.84,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.8076923076923077,
+          "support": 54.0
+        },
+        "accuracy": 0.8666666666666667,
+        "macro avg": {
+          "precision": 0.86,
+          "recall": 0.8472222222222222,
+          "f1-score": 0.8528257456828885,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8656,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.8654631083202511,
+          "support": 150.0
+        }
+      }
+    },
+    "Support_Vector_Machine": {
+      "accuracy": 0.8867,
+      "precision": 0.8136,
+      "recall": 0.8889,
+      "f1_score": 0.8496,
+      "roc_auc": 0.9637,
+      "confusion_matrix": [
+        [
+          85,
+          11
+        ],
+        [
+          6,
+          48
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9340659340659341,
+          "recall": 0.8854166666666666,
+          "f1-score": 0.9090909090909091,
+          "support": 96.0
+        },
+        "1": {
+          "precision": 0.8135593220338984,
+          "recall": 0.8888888888888888,
+          "f1-score": 0.8495575221238938,
+          "support": 54.0
+        },
+        "accuracy": 0.8866666666666667,
+        "macro avg": {
+          "precision": 0.8738126280499162,
+          "recall": 0.8871527777777777,
+          "f1-score": 0.8793242156074015,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8906835537344011,
+          "recall": 0.8866666666666667,
+          "f1-score": 0.8876588897827836,
+          "support": 150.0
+        }
+      }
+    },
+    "Gradient_Boosting": {
+      "accuracy": 0.88,
+      "precision": 0.86,
+      "recall": 0.7963,
+      "f1_score": 0.8269,
+      "roc_auc": 0.9653,
+      "confusion_matrix": [
+        [
+          89,
+          7
+        ],
+        [
+          11,
+          43
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.89,
+          "recall": 0.9270833333333334,
+          "f1-score": 0.9081632653061225,
+          "support": 96.0
+        },
+        "1": {
+          "precision": 0.86,
+          "recall": 0.7962962962962963,
+          "f1-score": 0.8269230769230769,
+          "support": 54.0
+        },
+        "accuracy": 0.88,
+        "macro avg": {
+          "precision": 0.875,
+          "recall": 0.8616898148148149,
+          "f1-score": 0.8675431711145997,
+          "support": 150.0
+        },
+        "weighted avg": {
+          "precision": 0.8792,
+          "recall": 0.88,
+          "f1-score": 0.878916797488226,
+          "support": 150.0
+        }
+      }
+    }
+  },
+  "best_model_name": "Logistic_Regression",
+  "feature_importances": {
+    "Logistic_Regression": [
+      {
+        "Feature": "current_gpa",
+        "Value": -3.794051354912985
+      },
+      {
+        "Feature": "financial_aid",
+        "Value": -1.4650909021940561
+      },
+      {
+        "Feature": "part_time_job",
+        "Value": 1.3970250991362585
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": -1.1949717841534422
+      },
+      {
+        "Feature": "socioeconomic_status_Low",
+        "Value": 0.8397282866343099
+      },
+      {
+        "Feature": "socioeconomic_status_Medium",
+        "Value": -0.45198252522880966
+      },
+      {
+        "Feature": "socioeconomic_status_High",
+        "Value": -0.3908322033420604
+      },
+      {
+        "Feature": "extracurricular_activities",
+        "Value": 0.21689273251618513
+      },
+      {
+        "Feature": "previous_grades",
+        "Value": -0.16406213547659765
+      },
+      {
+        "Feature": "commute_distance",
+        "Value": 0.1486434115363644
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.13398045030836295
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": -0.13007206433840252
+      },
+      {
+        "Feature": "age",
+        "Value": -0.019976259857436472
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": -0.0069948279065188985
+      }
+    ],
+    "Decision_Tree": [
+      {
+        "Feature": "current_gpa",
+        "Value": 0.6819284476862256
+      },
+      {
+        "Feature": "part_time_job",
+        "Value": 0.09654942647970591
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.090507133763006
+      },
+      {
+        "Feature": "financial_aid",
+        "Value": 0.07193326807139731
+      },
+      {
+        "Feature": "extracurricular_activities",
+        "Value": 0.016062091236922125
+      },
+      {
+        "Feature": "commute_distance",
+        "Value": 0.015960745794063078
+      },
+      {
+        "Feature": "previous_grades",
+        "Value": 0.013945834351861386
+      },
+      {
+        "Feature": "socioeconomic_status_Low",
+        "Value": 0.01169014519282077
+      },
+      {
+        "Feature": "socioeconomic_status_Medium",
+        "Value": 0.0014229074239977375
+      },
+      {
+        "Feature": "socioeconomic_status_High",
+        "Value": 0.0
+      },
+      {
+        "Feature": "age",
+        "Value": 0.0
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.0
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": 0.0
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": 0.0
+      }
+    ],
+    "Random_Forest": [
+      {
+        "Feature": "current_gpa",
+        "Value": 0.5448152029994996
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.11568094839256647
+      },
+      {
+        "Feature": "commute_distance",
+        "Value": 0.07053398613440391
+      },
+      {
+        "Feature": "previous_grades",
+        "Value": 0.06790171138381852
+      },
+      {
+        "Feature": "financial_aid",
+        "Value": 0.05787545707159946
+      },
+      {
+        "Feature": "part_time_job",
+        "Value": 0.051245910742206864
+      },
+      {
+        "Feature": "age",
+        "Value": 0.03184625317718247
+      },
+      {
+        "Feature": "socioeconomic_status_Medium",
+        "Value": 0.012073374488428316
+      },
+      {
+        "Feature": "extracurricular_activities",
+        "Value": 0.011012524303706422
+      },
+      {
+        "Feature": "socioeconomic_status_Low",
+        "Value": 0.010892097201454757
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.00801989800928045
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": 0.007747612887534431
+      },
+      {
+        "Feature": "socioeconomic_status_High",
+        "Value": 0.006432786342316824
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": 0.0039222368660013105
+      }
+    ],
+    "Support_Vector_Machine": [
+      {
+        "Feature": "current_gpa",
+        "Value": -3.0028568596925336
+      },
+      {
+        "Feature": "part_time_job",
+        "Value": 1.159500214787231
+      },
+      {
+        "Feature": "financial_aid",
+        "Value": -1.0767954632980015
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": -0.9533309280442226
+      },
+      {
+        "Feature": "socioeconomic_status_Low",
+        "Value": 0.7758576182058086
+      },
+      {
+        "Feature": "socioeconomic_status_High",
+        "Value": -0.4496746252462138
+      },
+      {
+        "Feature": "socioeconomic_status_Medium",
+        "Value": -0.3261829929594704
+      },
+      {
+        "Feature": "previous_grades",
+        "Value": -0.24728246662365105
+      },
+      {
+        "Feature": "extracurricular_activities",
+        "Value": 0.2256084937717322
+      },
+      {
+        "Feature": "commute_distance",
+        "Value": 0.1842800959304558
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.15739692053086074
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": -0.14588707745353346
+      },
+      {
+        "Feature": "age",
+        "Value": -0.04312342372576594
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": -0.011509843077284643
+      }
+    ],
+    "Gradient_Boosting": [
+      {
+        "Feature": "current_gpa",
+        "Value": 0.6671901462140685
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.10203852721569538
+      },
+      {
+        "Feature": "part_time_job",
+        "Value": 0.09417775147527148
+      },
+      {
+        "Feature": "financial_aid",
+        "Value": 0.08079770189808615
+      },
+      {
+        "Feature": "commute_distance",
+        "Value": 0.02199711240158399
+      },
+      {
+        "Feature": "previous_grades",
+        "Value": 0.013891688358317188
+      },
+      {
+        "Feature": "socioeconomic_status_Low",
+        "Value": 0.008567402293612181
+      },
+      {
+        "Feature": "extracurricular_activities",
+        "Value": 0.004436545335495848
+      },
+      {
+        "Feature": "age",
+        "Value": 0.0038430336459215697
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": 0.0014447380305185463
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.0011548558584854524
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": 0.00037234740686606577
+      },
+      {
+        "Feature": "socioeconomic_status_Medium",
+        "Value": 8.814986607772508e-05
+      },
+      {
+        "Feature": "socioeconomic_status_High",
+        "Value": 0.0
+      }
+    ]
+  },
+  "best_model_summary": {
+    "Model": "Logistic Regression",
+    "Validation_Accuracy": 0.8467,
+    "Validation_Recall": 0.8364,
+    "Validation_F1": 0.8,
+    "Validation_ROC_AUC": 0.9487,
+    "Test_Accuracy": 0.8867,
+    "Test_Precision": 0.8136,
+    "Test_Recall": 0.8889,
+    "Test_F1": 0.8496,
+    "Test_ROC_AUC": 0.9655
+  }
+}

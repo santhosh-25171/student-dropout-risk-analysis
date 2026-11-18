@@ -1,0 +1,45 @@
+{
+  "Logistic_Regression": {
+    "best_params": {
+      "C": 1.0,
+      "solver": "lbfgs"
+    },
+    "cv_roc_auc_score": 0.9696,
+    "model_path": "C:\\Users\\santh\\OneDrive - Rathinam Group Of Institutions\\Documents\\student-dropout-risk-analysis\\models\\ml\\primary_Logistic_Regression.joblib"
+  },
+  "Decision_Tree": {
+    "best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 4,
+      "min_samples_split": 10
+    },
+    "cv_roc_auc_score": 0.91,
+    "model_path": "C:\\Users\\santh\\OneDrive - Rathinam Group Of Institutions\\Documents\\student-dropout-risk-analysis\\models\\ml\\primary_Decision_Tree.joblib"
+  },
+  "Random_Forest": {
+    "best_params": {
+      "max_depth": 8,
+      "min_samples_split": 5,
+      "n_estimators": 200
+    },
+    "cv_roc_auc_score": 0.9588,
+    "model_path": "C:\\Users\\santh\\OneDrive - Rathinam Group Of Institutions\\Documents\\student-dropout-risk-analysis\\models\\ml\\primary_Random_Forest.joblib"
+  },
+  "Support_Vector_Machine": {
+    "best_params": {
+      "C": 5.0,
+      "kernel": "linear"
+    },
+    "cv_roc_auc_score": 0.9698,
+    "model_path": "C:\\Users\\santh\\OneDrive - Rathinam Group Of Institutions\\Documents\\student-dropout-risk-analysis\\models\\ml\\primary_Support_Vector_Machine.joblib"
+  },
+  "Gradient_Boosting": {
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "n_estimators": 150
+    },
+    "cv_roc_auc_score": 0.9587,
+    "model_path": "C:\\Users\\santh\\OneDrive - Rathinam Group Of Institutions\\Documents\\student-dropout-risk-analysis\\models\\ml\\primary_Gradient_Boosting.joblib"
+  }
+}

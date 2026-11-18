@@ -1,0 +1,931 @@
+{
+  "validation_metrics": {
+    "Logistic_Regression": {
+      "accuracy": 0.525,
+      "precision": 0.1938,
+      "recall": 0.5741,
+      "f1_score": 0.2897,
+      "roc_auc": 0.5404,
+      "confusion_matrix": [
+        [
+          137,
+          129
+        ],
+        [
+          23,
+          31
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.85625,
+          "recall": 0.5150375939849624,
+          "f1-score": 0.6431924882629108,
+          "support": 266.0
+        },
+        "1": {
+          "precision": 0.19375,
+          "recall": 0.5740740740740741,
+          "f1-score": 0.2897196261682243,
+          "support": 54.0
+        },
+        "accuracy": 0.525,
+        "macro avg": {
+          "precision": 0.525,
+          "recall": 0.5445558340295182,
+          "f1-score": 0.4664560572155675,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 0.7444531249999999,
+          "recall": 0.525,
+          "f1-score": 0.5835439427844324,
+          "support": 320.0
+        }
+      }
+    },
+    "Decision_Tree": {
+      "accuracy": 0.6719,
+      "precision": 0.1852,
+      "recall": 0.2778,
+      "f1_score": 0.2222,
+      "roc_auc": 0.5129,
+      "confusion_matrix": [
+        [
+          200,
+          66
+        ],
+        [
+          39,
+          15
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8368200836820083,
+          "recall": 0.7518796992481203,
+          "f1-score": 0.7920792079207921,
+          "support": 266.0
+        },
+        "1": {
+          "precision": 0.18518518518518517,
+          "recall": 0.2777777777777778,
+          "f1-score": 0.2222222222222222,
+          "support": 54.0
+        },
+        "accuracy": 0.671875,
+        "macro avg": {
+          "precision": 0.5110026344335967,
+          "recall": 0.5148287385129491,
+          "f1-score": 0.5071507150715071,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 0.7268566945606694,
+          "recall": 0.671875,
+          "f1-score": 0.6959158415841584,
+          "support": 320.0
+        }
+      }
+    },
+    "Random_Forest": {
+      "accuracy": 0.8281,
+      "precision": 0.3333,
+      "recall": 0.0185,
+      "f1_score": 0.0351,
+      "roc_auc": 0.5675,
+      "confusion_matrix": [
+        [
+          264,
+          2
+        ],
+        [
+          53,
+          1
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.832807570977918,
+          "recall": 0.9924812030075187,
+          "f1-score": 0.9056603773584906,
+          "support": 266.0
+        },
+        "1": {
+          "precision": 0.3333333333333333,
+          "recall": 0.018518518518518517,
+          "f1-score": 0.03508771929824561,
+          "support": 54.0
+        },
+        "accuracy": 0.828125,
+        "macro avg": {
+          "precision": 0.5830704521556257,
+          "recall": 0.5054998607630187,
+          "f1-score": 0.4703740483283681,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 0.7485212933753943,
+          "recall": 0.828125,
+          "f1-score": 0.7587512413108242,
+          "support": 320.0
+        }
+      }
+    },
+    "Support_Vector_Machine": {
+      "accuracy": 0.4969,
+      "precision": 0.1908,
+      "recall": 0.6111,
+      "f1_score": 0.2907,
+      "roc_auc": 0.566,
+      "confusion_matrix": [
+        [
+          126,
+          140
+        ],
+        [
+          21,
+          33
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8571428571428571,
+          "recall": 0.47368421052631576,
+          "f1-score": 0.6101694915254238,
+          "support": 266.0
+        },
+        "1": {
+          "precision": 0.1907514450867052,
+          "recall": 0.6111111111111112,
+          "f1-score": 0.2907488986784141,
+          "support": 54.0
+        },
+        "accuracy": 0.496875,
+        "macro avg": {
+          "precision": 0.5239471511147812,
+          "recall": 0.5423976608187134,
+          "f1-score": 0.4504591951019189,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 0.7446893063583815,
+          "recall": 0.496875,
+          "f1-score": 0.5562672664824909,
+          "support": 320.0
+        }
+      }
+    },
+    "Gradient_Boosting": {
+      "accuracy": 0.8125,
+      "precision": 0.125,
+      "recall": 0.0185,
+      "f1_score": 0.0323,
+      "roc_auc": 0.5326,
+      "confusion_matrix": [
+        [
+          259,
+          7
+        ],
+        [
+          53,
+          1
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8301282051282052,
+          "recall": 0.9736842105263158,
+          "f1-score": 0.8961937716262975,
+          "support": 266.0
+        },
+        "1": {
+          "precision": 0.125,
+          "recall": 0.018518518518518517,
+          "f1-score": 0.03225806451612903,
+          "support": 54.0
+        },
+        "accuracy": 0.8125,
+        "macro avg": {
+          "precision": 0.4775641025641026,
+          "recall": 0.49610136452241715,
+          "f1-score": 0.4642259180712133,
+          "support": 320.0
+        },
+        "weighted avg": {
+          "precision": 0.7111378205128205,
+          "recall": 0.8125,
+          "f1-score": 0.7504046210514567,
+          "support": 320.0
+        }
+      }
+    }
+  },
+  "test_metrics": {
+    "Logistic_Regression": {
+      "accuracy": 0.5202,
+      "precision": 0.1667,
+      "recall": 0.463,
+      "f1_score": 0.2451,
+      "roc_auc": 0.4995,
+      "confusion_matrix": [
+        [
+          142,
+          125
+        ],
+        [
+          29,
+          25
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8304093567251462,
+          "recall": 0.5318352059925093,
+          "f1-score": 0.6484018264840182,
+          "support": 267.0
+        },
+        "1": {
+          "precision": 0.16666666666666666,
+          "recall": 0.46296296296296297,
+          "f1-score": 0.24509803921568626,
+          "support": 54.0
+        },
+        "accuracy": 0.5202492211838006,
+        "macro avg": {
+          "precision": 0.4985380116959064,
+          "recall": 0.4973990844777362,
+          "f1-score": 0.44674993284985226,
+          "support": 321.0
+        },
+        "weighted avg": {
+          "precision": 0.7187517079302618,
+          "recall": 0.5202492211838006,
+          "f1-score": 0.5805563295603736,
+          "support": 321.0
+        }
+      }
+    },
+    "Decision_Tree": {
+      "accuracy": 0.7196,
+      "precision": 0.1667,
+      "recall": 0.1667,
+      "f1_score": 0.1667,
+      "roc_auc": 0.497,
+      "confusion_matrix": [
+        [
+          222,
+          45
+        ],
+        [
+          45,
+          9
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8314606741573034,
+          "recall": 0.8314606741573034,
+          "f1-score": 0.8314606741573034,
+          "support": 267.0
+        },
+        "1": {
+          "precision": 0.16666666666666666,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.16666666666666666,
+          "support": 54.0
+        },
+        "accuracy": 0.719626168224299,
+        "macro avg": {
+          "precision": 0.499063670411985,
+          "recall": 0.499063670411985,
+          "f1-score": 0.499063670411985,
+          "support": 321.0
+        },
+        "weighted avg": {
+          "precision": 0.719626168224299,
+          "recall": 0.719626168224299,
+          "f1-score": 0.719626168224299,
+          "support": 321.0
+        }
+      }
+    },
+    "Random_Forest": {
+      "accuracy": 0.8287,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": 0.4609,
+      "confusion_matrix": [
+        [
+          266,
+          1
+        ],
+        [
+          54,
+          0
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.83125,
+          "recall": 0.9962546816479401,
+          "f1-score": 0.9063032367972743,
+          "support": 267.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 54.0
+        },
+        "accuracy": 0.8286604361370716,
+        "macro avg": {
+          "precision": 0.415625,
+          "recall": 0.49812734082397003,
+          "f1-score": 0.45315161839863716,
+          "support": 321.0
+        },
+        "weighted avg": {
+          "precision": 0.6914135514018692,
+          "recall": 0.8286604361370716,
+          "f1-score": 0.753841010046331,
+          "support": 321.0
+        }
+      }
+    },
+    "Support_Vector_Machine": {
+      "accuracy": 0.4953,
+      "precision": 0.1625,
+      "recall": 0.4815,
+      "f1_score": 0.243,
+      "roc_auc": 0.5165,
+      "confusion_matrix": [
+        [
+          133,
+          134
+        ],
+        [
+          28,
+          26
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8260869565217391,
+          "recall": 0.49812734082397003,
+          "f1-score": 0.6214953271028038,
+          "support": 267.0
+        },
+        "1": {
+          "precision": 0.1625,
+          "recall": 0.48148148148148145,
+          "f1-score": 0.24299065420560748,
+          "support": 54.0
+        },
+        "accuracy": 0.4953271028037383,
+        "macro avg": {
+          "precision": 0.49429347826086956,
+          "recall": 0.48980441115272577,
+          "f1-score": 0.4322429906542056,
+          "support": 321.0
+        },
+        "weighted avg": {
+          "precision": 0.7144555058919139,
+          "recall": 0.4953271028037383,
+          "f1-score": 0.5578216438116865,
+          "support": 321.0
+        }
+      }
+    },
+    "Gradient_Boosting": {
+      "accuracy": 0.8193,
+      "precision": 0.3,
+      "recall": 0.0556,
+      "f1_score": 0.0938,
+      "roc_auc": 0.4625,
+      "confusion_matrix": [
+        [
+          260,
+          7
+        ],
+        [
+          51,
+          3
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8360128617363344,
+          "recall": 0.9737827715355806,
+          "f1-score": 0.8996539792387543,
+          "support": 267.0
+        },
+        "1": {
+          "precision": 0.3,
+          "recall": 0.05555555555555555,
+          "f1-score": 0.09375,
+          "support": 54.0
+        },
+        "accuracy": 0.8193146417445483,
+        "macro avg": {
+          "precision": 0.5680064308681672,
+          "recall": 0.514669163545568,
+          "f1-score": 0.49670198961937717,
+          "support": 321.0
+        },
+        "weighted avg": {
+          "precision": 0.7458424737806894,
+          "recall": 0.8193146417445483,
+          "f1-score": 0.7640813472172816,
+          "support": 321.0
+        }
+      }
+    }
+  },
+  "best_model_name": "Logistic_Regression",
+  "feature_importances": {
+    "Logistic_Regression": [
+      {
+        "Feature": "enrollment_gap_months",
+        "Value": -0.1151664958047904
+      },
+      {
+        "Feature": "ethnicity_White",
+        "Value": -0.10186964131807043
+      },
+      {
+        "Feature": "financial_aid_status_False",
+        "Value": -0.09469363172512947
+      },
+      {
+        "Feature": "financial_aid_status_True",
+        "Value": 0.09388884654070617
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.07951873462257059
+      },
+      {
+        "Feature": "gpa_current",
+        "Value": 0.0728050065185563
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.06680488718070342
+      },
+      {
+        "Feature": "ethnicity_Hispanic",
+        "Value": 0.06356048286603622
+      },
+      {
+        "Feature": "major_Psychology",
+        "Value": 0.050598358618181766
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": -0.04662249688407314
+      },
+      {
+        "Feature": "advisor_meeting_count",
+        "Value": 0.0452850507036324
+      },
+      {
+        "Feature": "academic_warning_count",
+        "Value": 0.03777208358612514
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": -0.03370102292292099
+      },
+      {
+        "Feature": "major_Computer Science",
+        "Value": -0.03156261646422659
+      },
+      {
+        "Feature": "major_Business",
+        "Value": -0.03059469702688574
+      },
+      {
+        "Feature": "ethnicity_Asian",
+        "Value": 0.022470915861848264
+      },
+      {
+        "Feature": "age",
+        "Value": -0.022001636166435825
+      },
+      {
+        "Feature": "credits_completed",
+        "Value": -0.019741033561766912
+      },
+      {
+        "Feature": "gpa_history",
+        "Value": -0.01707785436782567
+      },
+      {
+        "Feature": "ethnicity_Other",
+        "Value": 0.015244751471435105
+      },
+      {
+        "Feature": "major_Biology",
+        "Value": 0.008692696904665082
+      },
+      {
+        "Feature": "major_Electrical Engineering",
+        "Value": 0.002061472783841854
+      },
+      {
+        "Feature": "ethnicity_Black",
+        "Value": -0.00021129406567269946
+      }
+    ],
+    "Decision_Tree": [
+      {
+        "Feature": "gpa_history",
+        "Value": 0.1755046182143046
+      },
+      {
+        "Feature": "credits_completed",
+        "Value": 0.1621726397072475
+      },
+      {
+        "Feature": "gpa_current",
+        "Value": 0.12806843191429623
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.12347083156356171
+      },
+      {
+        "Feature": "age",
+        "Value": 0.0918920035628903
+      },
+      {
+        "Feature": "advisor_meeting_count",
+        "Value": 0.07368130510549926
+      },
+      {
+        "Feature": "enrollment_gap_months",
+        "Value": 0.04226496561803331
+      },
+      {
+        "Feature": "major_Electrical Engineering",
+        "Value": 0.03184503304153316
+      },
+      {
+        "Feature": "major_Biology",
+        "Value": 0.02383531161903026
+      },
+      {
+        "Feature": "ethnicity_White",
+        "Value": 0.019355782867732582
+      },
+      {
+        "Feature": "academic_warning_count",
+        "Value": 0.019144314715994676
+      },
+      {
+        "Feature": "ethnicity_Other",
+        "Value": 0.019004969111546546
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": 0.014618026167842087
+      },
+      {
+        "Feature": "ethnicity_Hispanic",
+        "Value": 0.014263372816222442
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.014202486275061115
+      },
+      {
+        "Feature": "major_Business",
+        "Value": 0.013799346276395206
+      },
+      {
+        "Feature": "major_Computer Science",
+        "Value": 0.010305652470084307
+      },
+      {
+        "Feature": "financial_aid_status_False",
+        "Value": 0.009444749799557086
+      },
+      {
+        "Feature": "ethnicity_Asian",
+        "Value": 0.0064897381630486485
+      },
+      {
+        "Feature": "major_Psychology",
+        "Value": 0.003261323359216224
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": 0.0029288807381836817
+      },
+      {
+        "Feature": "ethnicity_Black",
+        "Value": 0.00044621689271889245
+      },
+      {
+        "Feature": "financial_aid_status_True",
+        "Value": 2.804236741816653e-16
+      }
+    ],
+    "Random_Forest": [
+      {
+        "Feature": "gpa_history",
+        "Value": 0.13223505897425578
+      },
+      {
+        "Feature": "gpa_current",
+        "Value": 0.13110387822263334
+      },
+      {
+        "Feature": "credits_completed",
+        "Value": 0.12759184132242082
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.11865821706895308
+      },
+      {
+        "Feature": "age",
+        "Value": 0.08651714277124771
+      },
+      {
+        "Feature": "advisor_meeting_count",
+        "Value": 0.06553399471292483
+      },
+      {
+        "Feature": "academic_warning_count",
+        "Value": 0.04903355046758148
+      },
+      {
+        "Feature": "enrollment_gap_months",
+        "Value": 0.04336942344571959
+      },
+      {
+        "Feature": "ethnicity_White",
+        "Value": 0.02023871076575837
+      },
+      {
+        "Feature": "ethnicity_Asian",
+        "Value": 0.019099037524108138
+      },
+      {
+        "Feature": "major_Computer Science",
+        "Value": 0.018343935117662427
+      },
+      {
+        "Feature": "major_Electrical Engineering",
+        "Value": 0.017366055815780358
+      },
+      {
+        "Feature": "major_Business",
+        "Value": 0.017202715177083466
+      },
+      {
+        "Feature": "major_Biology",
+        "Value": 0.016143643377241987
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": 0.01588971212355107
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.015852213274827637
+      },
+      {
+        "Feature": "financial_aid_status_False",
+        "Value": 0.01584916853834204
+      },
+      {
+        "Feature": "ethnicity_Black",
+        "Value": 0.015557522019017101
+      },
+      {
+        "Feature": "ethnicity_Other",
+        "Value": 0.015548134816869497
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": 0.015482382159669086
+      },
+      {
+        "Feature": "major_Psychology",
+        "Value": 0.014931335037371015
+      },
+      {
+        "Feature": "financial_aid_status_True",
+        "Value": 0.014337206026172803
+      },
+      {
+        "Feature": "ethnicity_Hispanic",
+        "Value": 0.014115121240808411
+      }
+    ],
+    "Support_Vector_Machine": [
+      {
+        "Feature": "gpa_current",
+        "Value": 1.3624671029746551
+      },
+      {
+        "Feature": "gpa_history",
+        "Value": -1.251889133435263
+      },
+      {
+        "Feature": "ethnicity_White",
+        "Value": -0.51190555836504
+      },
+      {
+        "Feature": "financial_aid_status_True",
+        "Value": 0.32757402335997554
+      },
+      {
+        "Feature": "financial_aid_status_False",
+        "Value": -0.32757402333919217
+      },
+      {
+        "Feature": "enrollment_gap_months",
+        "Value": -0.3152233738728647
+      },
+      {
+        "Feature": "major_Psychology",
+        "Value": 0.25454826998583613
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.23595945120104744
+      },
+      {
+        "Feature": "ethnicity_Hispanic",
+        "Value": 0.21434135635661633
+      },
+      {
+        "Feature": "ethnicity_Other",
+        "Value": 0.14701202055907103
+      },
+      {
+        "Feature": "major_Business",
+        "Value": -0.14160940349961137
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": -0.13825060375932452
+      },
+      {
+        "Feature": "advisor_meeting_count",
+        "Value": 0.1219791100374179
+      },
+      {
+        "Feature": "major_Computer Science",
+        "Value": -0.11646685896265829
+      },
+      {
+        "Feature": "academic_warning_count",
+        "Value": 0.09915759443814487
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": -0.09770884744366448
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.09533662930442688
+      },
+      {
+        "Feature": "ethnicity_Black",
+        "Value": 0.09049479218564471
+      },
+      {
+        "Feature": "major_Biology",
+        "Value": 0.06331174229521963
+      },
+      {
+        "Feature": "age",
+        "Value": -0.060321362963406955
+      },
+      {
+        "Feature": "ethnicity_Asian",
+        "Value": 0.060057389263715066
+      },
+      {
+        "Feature": "major_Electrical Engineering",
+        "Value": -0.05978374982001
+      },
+      {
+        "Feature": "credits_completed",
+        "Value": -0.02032438415955795
+      }
+    ],
+    "Gradient_Boosting": [
+      {
+        "Feature": "gpa_history",
+        "Value": 0.20254438108405515
+      },
+      {
+        "Feature": "gpa_current",
+        "Value": 0.19951583382845967
+      },
+      {
+        "Feature": "credits_completed",
+        "Value": 0.14994662915110996
+      },
+      {
+        "Feature": "attendance_rate",
+        "Value": 0.13447024372324248
+      },
+      {
+        "Feature": "age",
+        "Value": 0.06539822962677486
+      },
+      {
+        "Feature": "advisor_meeting_count",
+        "Value": 0.05347009377228886
+      },
+      {
+        "Feature": "academic_warning_count",
+        "Value": 0.03319551332042208
+      },
+      {
+        "Feature": "enrollment_gap_months",
+        "Value": 0.022972769121010782
+      },
+      {
+        "Feature": "ethnicity_Hispanic",
+        "Value": 0.015801991364608418
+      },
+      {
+        "Feature": "gender_Female",
+        "Value": 0.0157721368324001
+      },
+      {
+        "Feature": "financial_aid_status_False",
+        "Value": 0.014447623364996682
+      },
+      {
+        "Feature": "ethnicity_Asian",
+        "Value": 0.012843155236560513
+      },
+      {
+        "Feature": "major_Business",
+        "Value": 0.011558318281015206
+      },
+      {
+        "Feature": "ethnicity_Black",
+        "Value": 0.01063978169534396
+      },
+      {
+        "Feature": "major_Computer Science",
+        "Value": 0.009849497165101096
+      },
+      {
+        "Feature": "ethnicity_Other",
+        "Value": 0.009395402564244792
+      },
+      {
+        "Feature": "major_Biology",
+        "Value": 0.009094148316103057
+      },
+      {
+        "Feature": "ethnicity_White",
+        "Value": 0.008684385342961122
+      },
+      {
+        "Feature": "financial_aid_status_True",
+        "Value": 0.0053649964247162564
+      },
+      {
+        "Feature": "gender_Male",
+        "Value": 0.004630159408675504
+      },
+      {
+        "Feature": "major_Electrical Engineering",
+        "Value": 0.0043570958461220805
+      },
+      {
+        "Feature": "major_Psychology",
+        "Value": 0.0035953804803128798
+      },
+      {
+        "Feature": "gender_Other",
+        "Value": 0.0024522340494746147
+      }
+    ]
+  },
+  "best_model_summary": {
+    "Model": "Logistic Regression",
+    "Validation_Accuracy": 0.525,
+    "Validation_Recall": 0.5741,
+    "Validation_F1": 0.2897,
+    "Validation_ROC_AUC": 0.5404,
+    "Test_Accuracy": 0.5202,
+    "Test_Precision": 0.1667,
+    "Test_Recall": 0.463,
+    "Test_F1": 0.2451,
+    "Test_ROC_AUC": 0.4995
+  }
+}
